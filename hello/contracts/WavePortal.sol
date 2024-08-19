@@ -45,7 +45,7 @@ contract WavePortal {
          */
         require(
             lastWavedAt[msg.sender] + 1 minute < block.timestamp,
-            "Espere 1min"
+            "Wait 1min"
         );
 
         /*
